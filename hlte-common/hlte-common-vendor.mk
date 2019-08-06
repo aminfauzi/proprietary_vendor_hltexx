@@ -308,51 +308,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
-
-# WFD
-PRODUCT_COPY_FILES += \
-    vendor/samsung/hlte-common/proprietary/vendor/bin/wfdservice:system/vendor/bin/wfdservice \
-    vendor/samsung/hlte-common/proprietary/vendor/bin/wifidisplayhalservice:system/vendor/bin/wifidisplayhalservice \
-    vendor/samsung/hlte-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
-    vendor/samsung/hlte-common/proprietary/vendor/etc/init/wfdservice.rc:system/vendor/etc/init/wfdservice.rc \
-    vendor/samsung/hlte-common/proprietary/vendor/etc/wfdconfig.xml:system/vendor/etc/wfdconfig.xml \
-    vendor/samsung/hlte-common/proprietary/vendor/etc/wfdconfigsink.xml:system/vendor/etc/wfdconfigsink.xml \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/extractors/libmmparser.so:system/vendor/lib/extractors/libmmparser.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdavenhancements.so:system/vendor/lib/libwfdavenhancements.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdclient.so:system/vendor/lib/libwfdclient.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdcodecv4l2.so:system/vendor/lib/libwfdcodecv4l2.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdconfigutils.so:system/vendor/lib/libwfdconfigutils.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdmminterface.so:system/vendor/lib/libwfdmminterface.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:system/vendor/lib/libwfdcommonutils_proprietary.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdhaldsmanager.so:system/vendor/lib/libwfdhaldsmanager.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdmmservice.so:system/vendor/lib/libwfdmmservice.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/libwfdmodulehdcpsession.so:system/vendor/lib/libwfdmodulehdcpsession.so
-
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    TimeService \
-    WfdService \
-    WfdCommon
+    TimeService
