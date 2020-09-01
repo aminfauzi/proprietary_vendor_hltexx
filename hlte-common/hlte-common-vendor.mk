@@ -19,6 +19,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/hlte-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/hlte-common/proprietary/etc/permissions/android.dolby.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.dolby.xml \
+    vendor/samsung/hlte-common/proprietary/framework/dolby_ds.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dolby_ds.jar \
+    vendor/samsung/hlte-common/proprietary/etc/ds1-default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/ds1-default.xml \
     vendor/samsung/hlte-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/hlte-common/proprietary/vendor/bin/efsks:$(TARGET_COPY_OUT_VENDOR)/bin/efsks \
     vendor/samsung/hlte-common/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
@@ -307,7 +310,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
-    vendor/samsung/hlte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
+    vendor/samsung/hlte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/soundfx/libdseffect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libdseffect.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_soft_ac4dec.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_soft_ddpdec.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
