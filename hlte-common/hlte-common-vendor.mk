@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/etc/permissions/android.dolby.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.dolby.xml \
     vendor/samsung/hlte-common/proprietary/framework/dolby_ds.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dolby_ds.jar \
     vendor/samsung/hlte-common/proprietary/etc/ds1-default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/ds1-default.xml \
+    vendor/samsung/hlte-common/proprietary/etc/sysconfig/dolby_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/dolby_whitelist.xml \
     vendor/samsung/hlte-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/hlte-common/proprietary/vendor/bin/efsks:$(TARGET_COPY_OUT_VENDOR)/bin/efsks \
     vendor/samsung/hlte-common/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
